@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\user\Documents\NetBeansProjects\HowdyDecryptor\dist\HowdyDecryptor.jar</jar>
+  <outfile>C:\Users\user\Documents\NetBeansProjects\HowdyDecryptor\dist\hw.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon></icon>
+  <singleInstance>
+    <mutexName>howddydecryptor</mutexName>
+    <windowTitle>HowdyDecryptor</windowTitle>
+  </singleInstance>
+  <classPath>
+    <mainClass>howdydecryptor.HowdyDecryptor</mainClass>
+    <cp>lib/json-simple-1.1.jar</cp>
+  </classPath>
+  <jre>
+    <path>C:\Program Files\Java\jre1.8.0_271</path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion></minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>jdkOnly</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>1.0.0.0</txtFileVersion>
+    <fileDescription>1.0.0.0 Version of Howdy VPN Decryptor</fileDescription>
+    <copyright>MIT</copyright>
+    <productVersion>1.0.0.0</productVersion>
+    <txtProductVersion>1.0.0.0</txtProductVersion>
+    <productName>Howdy Decryptor 1.0.0.0 </productName>
+    <companyName></companyName>
+    <internalName>hwdecryptor</internalName>
+    <originalFilename>hwdecryptor.exe</originalFilename>
+    <trademarks></trademarks>
+    <language>ENGLISH_US</language>
+  </versionInfo>
+  <messages>
+    <startupErr>Hey, Howdy Decryptor couldn&apos;t start. Contact : sammuthembwa926@gmail.com for help.</startupErr>
+    <bundledJreErr>This application requires a Java Runtime Environment.</bundledJreErr>
+    <jreVersionErr>This application requires a Java Runtime Environment</jreVersionErr>
+    <launcherErr>The registry refers to a nonexistent Java Runtime Environment installation or the runtime is corrupted.</launcherErr>
+    <instanceAlreadyExistsMsg>Howdy Decryptor Instance already exixst.</instanceAlreadyExistsMsg>
+  </messages>
+</launch4jConfig>
